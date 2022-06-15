@@ -1,0 +1,27 @@
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.wrapper{
+    display: flex;
+    max-width: 1280px;
+    height: 871px;
+    background-color:aqua;
+    bo
+
+}
+
+
+
+
+
+

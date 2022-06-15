@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="style.css">
+		<meta name="viewport" content="width=device-width">
+        <title>Doors calculator</title>
+    </head>
+    <body>
+		<div class="wrapper">
+            <div class="header_title">
+                <div class="header_title_h1">
+                    <h1>расчет стоимости входной двери</h1>
+                </div>  
+            </div>
+            <div class="door_selection">
+                <div class="main_selection_positions">
+                    <div class="name_cost_door_selection">
+                        <div class="first position">
+                            1
+                        </div>
+                        <div class="name_position">
+                            Выберите дверь
+                        </div>
+                        <div>
+                             <select class="form_select form_select_door" aria-label="Default select"></select>
+                        </div>
+                    </div>
+                    <div class="selection_city_delivery">
+                        <div class="first position">
+                            2
+                        </div>
+                        <div class="name_position">
+                            Выберите город
+                        </div>
+                        <div>
+                             <select class="form_select form_select_sity" aria-label="Default select"></select>
+                        </div>
+                        <div class="delivery_box">
+                            <div class="name_position">
+                                Способ доставки
+                            </div>
+                            <div class="delivery_check">
+                                <div class="form_check form_check_inline">
+                                    <input class="form_check_input" type="radio" name="delivery_check" id="without_delivery">
+                                    <label class="form_check_label" for="inlineRadio1">Самовывоз</label>                               
+                                 </div>
+                                 <div class="form_check form_check_inline">
+                                    <input class="form_check_input" type="radio" name="delivery_check" id="byCompany">
+                                    <label class="form_check_label" for="inlineRadio2">С доставкой</label>                               
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="installation_location">
+                        <div class="first position">
+                            3
+                        </div>
+                        <div class="name_position">
+                            Место установки
+                        </div>
+                        <div class="location_check">
+                            <div class="form_check form_check_inline">
+                                <input class="form_check_input" type="radio" name="location_check" id="newBilding" value="option1">
+                                <label class="form_check_label" for="inlineRadio3">Новостройка</label>                               
+                             </div>
+                             <div class="form_check form_check_inline">
+                                <input class="form_check_input" type="radio" name="location_check" id="oldBilding" value="option2">
+                                <label class="form_check_label" for="inlineRadio4">Не новое жильё</label>                               
+                             </div>
+                             <div class="form_check form_check_inline">
+                                <input class="form_check_input" type="radio" name="location_check" id="privateHouse" value="option3">
+                                <label class="form_check_label" for="inlineRadio5">Частный дом</label>                               
+                             </div>
+                        </div>
+                    </div>
+                    <div class="elevator_floor">
+                        <div class="first position">
+                            4
+                        </div>
+                        <div class="name_position">
+                            Лифт
+                        </div>
+                        <div class="floor_check">
+                            <div class="form_check form_check_inline">
+                                <input class="form_check_input" type="radio" name="floor_check">
+                                <label class="form_check_label" for="inlineRadio6">Работает</label>                               
+                             </div>
+                             <div class="form_check form_check_inline">
+                                <input class="form_check_input" type="radio" name="floor_check">
+                                <label class="form_check_label" for="inlineRadio7">Не работает</label>                               
+                             </div>
+                        </div>
+                        <div class="counter_box">
+                            <div class="name_position">
+                                Этаж
+                            </div>
+                            <div class="counter">
+                                <div class="counter_up">
+                                    +
+                                </div>
+                                <input class="counter_input" type="text" value="1">
+                                <div class="counter_dovn">
+                                    -
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conclusion_cost">
+                        <div class="first position">
+                              V  
+                        </div>
+                        <div class="total_coast"></div>
+                    </div>
+                </div>
+                <div class="additional_information"></div>
+                <div class="call_button">
+                    <a href='tel: +375297777777'><button type="button" class="btn">Позвонить чтобы соглосовать ваши пожелания</button></a>
+                </div>
+            </div>
+        </div>   
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script type="module" src="script.js"></script>
+    </body>
+</html>
